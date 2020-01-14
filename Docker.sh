@@ -1,5 +1,7 @@
 #!/bin/bash
 clear
+cat /etc/motd
+#Script d'installation auto de docker pour centos
 echo "Installation Docker"
 #Install Clé Docker
 yum install -y yum-utils \
